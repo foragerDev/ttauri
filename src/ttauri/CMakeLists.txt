@@ -81,7 +81,7 @@ target_sources(ttauri PRIVATE
     flow_layout.hpp
     format.hpp
     forward_value.hpp
-    gap_buffer.hpp
+    #gap_buffer.hpp
     glob.hpp
     hash.hpp
     hires_utc_clock.cpp
@@ -205,7 +205,7 @@ target_sources(ttauri_tests PRIVATE
     exceptions_tests.cpp
     file_view_tests.cpp
     forward_value_tests.cpp
-    gap_buffer_tests.cpp
+    #gap_buffer_tests.cpp
     glob_tests.cpp
     int_overflow_tests.cpp
     interval_extent2_tests.cpp
